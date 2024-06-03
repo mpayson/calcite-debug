@@ -9,7 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@esri/calcite-components-react": "^2.7.0",
+    "@esri/calcite-components-react": "2.8.5",
+    "@esri/calcite-components": "2.8.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
