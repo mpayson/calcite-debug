@@ -14,6 +14,8 @@ export default function Component() {
           modal
           ref={ref}
           onCalciteDialogClose={() => {
+            // Note: this is a contrived example to show the effect of a rerender from
+            // an external state store before the dialog is removed.
             ref.current.open = true;
             setOpen(false);
           }}
